@@ -1,0 +1,28 @@
+How to do the deconvolution of the .asc datasets produced with the HEKA SECM.
+
+
+1, Multiplying X-ccordinate and current to get micrometer and picoampere.
+   
+   awk '{$1, print $2*1000000, $3*1000000000000}' 140128_1E1_11_3D.asc > 140128_1E1_11_3D_.asc
+   This is a linux bash tool, of course it can be done with Origin or Excel.
+
+2, Correct chronology of the measurement, by mirroring every other scanline
+   
+   Original data is in a format like this:
+
+	scanline 1:
+        0
+	2
+	4
+	...
+	50
+
+	scanline 2:
+	0
+	2
+	4
+	...
+	50
+
+   But this is not the chronological order for the meander. The second scanline starts with the X-ccordinate 50!
+   Correct order of the dataset
