@@ -1,4 +1,4 @@
-How to do the deconvolution of the .asc datasets produced with the HEKA SECM.
+How to do the deconvolution of the .asc datasets produced with the HEKA SECM by Monika and Phillip in 2014. The image shows the oxidation current at a 10 microemeter Pt disk electrode oxidizing H2O2. The current is decreased in the vicinity of the cell.
 
 
 1, Multiplying X-ccordinate and current to get micrometer and picoampere.
@@ -6,9 +6,7 @@ How to do the deconvolution of the .asc datasets produced with the HEKA SECM.
    awk '{$1, print $2*1000000, $3*1000000000000}' 140128_1E1_11_3D.asc > 140128_1E1_11_3D_.asc
    This is a linux bash tool, of course it can be done with Origin or Excel.
 
-2, Correct chronology of the measurement, by mirroring every other scanline
-   
-   Original data is in a format like this:
+2, Correct chronology of the measurement, by mirroring every other scanline. A script would be nice that does everything. I'm planning to write one using awk and sed. These are pretty good and efficient tools in Linux bash. Original data is in a format like this:
 
 	scanline 1:
         0
@@ -24,5 +22,90 @@ How to do the deconvolution of the .asc datasets produced with the HEKA SECM.
 	...
 	50
 
-   But this is not the chronological order for the meander. The second scanline starts with the X-ccordinate 50!
-   Correct order of the dataset
+   But this is not the chronological order for the meander. The second scanline starts with the X-ccordinate 50! Correct order of the dataset:
+
+        scanline 1:
+        0
+        2
+        4
+        ...
+        50
+
+        scanline 2:
+        50
+        48
+        46
+        ...
+        0
+
+3, After I've done this, the data was ready for deconvolution, for which I've used the following FORTRAN program:
+
+program deconvolution
+implicit none
+
+integer :: stat
+real i, j, rc, e0, conv
+
+rc=0.985
+
+open(1,file='11.txt')
+open(2,file='11_deconvoluted.txt')
+read(1, *) i, j, e0
+do
+   read(1, *, iostat=stat) i, j, conv
+   if (stat /= 0) exit
+   write(2, *) i, j, ((conv - e0*rc)/(1-rc))
+   e0=conv
+end do
+close(1) 
+close(2)
+
+end program deconvolution
+
+I compiled the code with gfortran. Then I ran the resulting a.out (default output) as:
+
+./a.out
+
+I think even Excel can be used for deconvolution. The criteria is that the program should be able to do relative references.
+
+4, To plot the original and the result, I've used gnuplot. Of course you can use Origin or other similar program.
+
+set size ratio 0.8
+set pm3d map
+set dgrid3d 51, 40 , 10, gauss 1,1
+set cntrparam levels auto 10
+set term postscript enhanced color
+set xlabel "X / {/Symbol m}m"
+set ylabel "Y / {/Symbol m}m"
+set palette rgbformulae 22, 13, -31 # quickgrid
+set xtics font "Helvetica, 25"
+set ytics font "Helvetica, 25"
+set xlabel font ",25"
+set ylabel font ",25"
+set cblabel font ",25"
+set cbtics font ",25"
+set cblabel offset 4,0
+set ylabel offset -3,0
+set xlabel offset 0,-1
+set xtics 0, 25, 50
+set ytics 0, 19, 38
+set yrange [0:38]
+set xrange [0:50]
+set cblabel "i / pA"
+set cbrange [1.2:1.7]
+
+set label "140128-1-E1-11-3D.asc" at 1, 35 tc rgb "white" font ",40" front
+set out "11.eps"
+splot "11.txt" u ($1):($2):($3) notitle
+unset label
+
+set label "140128-1-E1-11-3D.asc" at 1, 35 tc rgb "white" font ",40" front
+set label "deconvoluted" at 1, 31 tc rgb "white" font ",40" front
+set out "11_deconvoluted.eps"
+splot "11_deconvoluted.txt" u ($1):($2):($3) notitle
+unset label
+
+Of course, gaussian filter is necessary to eliminate the unavoidable increase in noise after deconvolution. The line that does it is:
+set dgrid3d 51, 40 , 10, gauss 1,1
+
+This is the complete procedure to produce the figures from the raw data Phillip sent me.

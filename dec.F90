@@ -1,4 +1,4 @@
-program diffusion
+program deconvolution
 implicit none
 
 integer :: stat
@@ -18,4 +18,4 @@ end do
 close(1) 
 close(2)
 
-end program diffusion
+end program deconvolution
