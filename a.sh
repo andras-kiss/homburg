@@ -12,6 +12,6 @@
 
 # gnuplot plot_sb
 pdflatex -shell-escape procedure.tex
-#bibtex phd
+bibtex procedure
 pdflatex -shell-escape procedure.tex
 #rm *.{aux,bbl,blg,lof,log,lot,out,toc}

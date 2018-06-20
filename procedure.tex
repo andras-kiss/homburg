@@ -1,6 +1,8 @@
 % ### by András Kiss ###
 % ### 2018.06.20 #######
 % ### Homburg ##########
+
+
 \documentclass[a4paper, 11pt]{article}
 \usepackage{ae,aecompl}
 \usepackage[T1]{fontenc}
@@ -24,10 +26,16 @@
 \usepackage{cite}
 \usepackage{listings}
 \usepackage{setspace}
-\usepackage{marginnote}
 \setstretch{1.2}
 \usepackage{xcolor}
 \usepackage{listings}
+% uncomment for hyperlinks
+\usepackage[colorlinks = true,
+            linkcolor = red,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
 
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -57,22 +65,22 @@
 \lstset{style=mystyle}
 
 \begin{document}
-\title{Deconvolution of amperometric SECM images recorded with the HEKA ElProScan}
+\title{How to deconvolute the amperometric SECM images recorded with the HEKA ElProScan?}
 \author{András Kiss, PhD}
 \maketitle
 
-This guide shows how to do the deconvolution of the .asc datasets produced with the HEKA SECM by Monika and Phillip in 2014. The example image \ref{fig:original11} shows the oxidation current at a 10 microemeter Pt disk electrode oxidizing H$_2$O$_2$. The current is decreased in the vicinity of the cell.
+This guide shows how to do the deconvolution of the .asc datasets produced with the HEKA SECM by Monika and Phillip in 2014. The example image (Fig. \ref{fig:original11}.) shows the oxidation current at a 10 microemeter Pt disk electrode oxidizing H$_2$O$_2$. The current is decreased in the vicinity of the cell. The procedure is similar to what I've worked out to deconvolute potentiometric images \cite{kiss2015deconvolution_in, kiss2015deconvolution_of}. My PhD thesis is partially about this improvement \cite{phd}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{original11.eps}
-\label{fig:original11}
 \caption{Original data recorded by Monika and Phillip. Image of a monocyte. Tip was d=10 $\upmu$m Pt, tip potential was 650 mV oxidizing H$_2$O$_2$. The image shows directional blur.}
+\label{fig:original11}
 \end{figure}
 
 
 \begin{enumerate}
-\item Multiplying X-ccordinate and current to get micrometer and picoampere.
+\item Multiplying X-ccordinate and current to get micrometer and picoampere. It makes everything more convenient.
    
 \begin{lstlisting}[language=bash]
    awk '{$1, print $2*1000000, $3*1000000000000}' &&
@@ -205,12 +213,12 @@ The results can be seen in Fig. \ref{fig:results}. This is the complete procedur
 \centering
 \includegraphics[width=0.5\textwidth, angle=-90]{11.eps}
 \includegraphics[width=0.5\textwidth, angle=-90]{11_deconvoluted.eps}
-
-\label{fig:results}
 \caption{Raw and deconvoluted images.}
+\label{fig:results}
 \end{figure}
 
-
+\bibliography{procedure}{}
+\bibliographystyle{plain}
 
 \end{document}
 
