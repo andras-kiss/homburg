@@ -1,12 +1,16 @@
 set size ratio 0.8
 set pm3d map
-set dgrid3d 51, 40 , 10, gauss 1,1 
+set dgrid3d 51, 40 , 10 #, gauss 1,1 
 #set pm3d interpolate 3,3
 #set contour
 set cntrparam levels auto 10
 #set key outside
 #set term jpeg
-set term postscript enhanced color
+
+set terminal png size 400,300
+
+#set term postscript enhanced color
+
 #set terminal pdf
 
 set xlabel "X / {/Symbol m}m"
@@ -35,15 +39,15 @@ set xrange [0:50]
 set cblabel "i / pA"
 
 set cbrange [1.2:1.7]
-set label "140128-1-E1-11-3D.asc" at 1, 35 tc rgb "white" font ",40" front
-set out "11.eps" 
+#set label "140128-1-E1-11-3D.asc" at 1, 35 tc rgb "white" font ",40" front
+set out "11.png" 
 splot "11.txt" u ($1):($2):($3) notitle
 unset label
 
 set cbrange [1.2:1.7]
 set label "140128-1-E1-11-3D.asc" at 1, 35 tc rgb "white" font ",40" front
 set label "deconvoluted" at 1, 31 tc rgb "white" font ",40" front
-set out "11_deconvoluted.eps" 
+set out "11_deconvoluted.png" 
 splot "11_deconvoluted.txt" u ($1):($2):($3) notitle
 unset label
 
