@@ -25,6 +25,9 @@ Usage:
 
 # Python 2/3 compatibility
 from __future__ import print_function
+from scipy.ndimage.filters import gaussian_filter
+from skimage import color, data, restoration
+
 
 import numpy as np
 import cv2 as cv
@@ -33,7 +36,7 @@ import cv2 as cv
 # from common import nothing
 
 
-def blur_edge(img, d=31):
+def blur_edge(img, d=110):
     h, w  = img.shape[:2]
     img_pad = cv.copyMakeBorder(img, d, d, d, d, cv.BORDER_WRAP)
     img_blur = cv.GaussianBlur(img_pad, (2*d+1, 2*d+1), -1)[d:-d,d:-d]
@@ -42,7 +45,7 @@ def blur_edge(img, d=31):
     w = np.minimum(np.float32(dist)/d, 1.0)
     return img*w + img_blur*(1-w)
 
-def defocus_kernel(d, sz=30):
+def defocus_kernel(d, sz=110):
     kern = np.zeros((sz, sz), np.uint8)
     cv.circle(kern, (sz, sz), d, 255, -1, cv.CV_AA, shift=1)
     kern = np.float32(kern) / 255.0
@@ -62,18 +65,33 @@ if __name__ == '__main__':
     #    print('Failed to load file:', fn)
     #    sys.exit(1)
 
-    img = np.loadtxt("Matrix1.txt")
+    img = np.loadtxt("180628/2_matrix.txt")
     #img = np.float32(img)/255.0
-    img = np.float32(img)/img.max()
-    cv.imshow('input', img)
+    #img = np.float32(img)/5.5
+    img = np.float32(img)/np.float32(img.max())
+    imglr = np.fliplr(img)	
+    imgup = np.flipud(img)
+    imgcr = np.flipud(np.fliplr(img))
+    
+    first = np.hstack((imgcr,imgup,imgcr))
+    second = np.hstack((imglr,img,imglr))
+    third = np.hstack((imgcr,imgup,imgcr))
+    complete = np.vstack((first,second,third))
 
-    img = blur_edge(img)
-    IMG = cv.dft(img, flags=cv.DFT_COMPLEX_OUTPUT)
+
+    #img = gaussian_filter(img, sigma=3)
+    #cv.imshow('input', img)
+    newimage_input = cv.resize(img,(450,500))
+    cv.imshow('original', newimage_input)
+
+
+    img_blurred = blur_edge(img)
+    IMG = cv.dft(img_blurred, flags=cv.DFT_COMPLEX_OUTPUT)
 
     def update(_):
         d = cv.getTrackbarPos('d', win)
         noise = 10**(-0.1*cv.getTrackbarPos('SNR (db)', win))
-
+	
         psf = defocus_kernel(d)
         cv.imshow('psf', psf)
 
@@ -88,11 +106,18 @@ if __name__ == '__main__':
         res = cv.idft(RES, flags=cv.DFT_SCALE | cv.DFT_REAL_OUTPUT )
         res = np.roll(res, -kh//2, 0)
         res = np.roll(res, -kw//2, 1)
-        cv.imshow('deconvoluted', res)
+	lucy = restoration.richardson_lucy(complete, psf, iterations=3)
+
+        #cv.imshow('deconvoluted', res)
+	newimage = cv.resize(res,(460,500))
+	cv.imshow('deconvoluted', newimage)
+	newimage_rl = cv.resize(lucy,(460,500))
+	cv.imshow('lucy', newimage_rl)
+	np.savetxt("180628/2_matrix_rl_deconvoluted.txt", lucy, delimiter=" ")
 
     cv.namedWindow(win)
     cv.namedWindow('psf', 0)
-    cv.createTrackbar('d', win, int(opts.get('--d', 22)), 50, update)
+    cv.createTrackbar('d', win, int(opts.get('--d', 22)), 100, update)
     cv.createTrackbar('SNR (db)', win, int(opts.get('--snr', 25)), 50, update)
     update(None)
 
