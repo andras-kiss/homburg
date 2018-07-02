@@ -1,6 +1,6 @@
 set size ratio 0.8
 set pm3d map
-set dgrid3d 51, 41 # , 10 , gauss 1,1 
+set dgrid3d 51, 40, 10 , gauss 1,1 
 #set pm3d interpolate 3,3
 #set contour
 set cntrparam levels auto 10
@@ -41,17 +41,24 @@ set cblabel "i / pA"
 
 set object 1 circle at 45,5 size 5 fc rgb "black" front
 
-set cbrange [1.3:1.7]
+set cbrange [1.2:1.7]
 set label "A" at 1, 37 tc rgb "black" font ",40" front
 set out "11.eps" 
 splot "11.txt" u ($1):($2/38*40):($3) notitle
 unset label
 
-set cbrange [1.4:1.7]
+set cbrange [1.2:1.7]
 set label "B" at 1, 37 tc rgb "black" font ",40" front
 #set label "deconvoluted" at 1, 31 tc rgb "white" font ",40" front
 set out "11_deconvoluted.eps" 
 splot "11_deconvoluted.txt" u ($1):($2/38*40):($3) notitle
+unset label
+
+set cbrange [1.2:1.7]
+set label "B" at 1, 37 tc rgb "black" font ",40" front
+#set label "deconvoluted" at 1, 31 tc rgb "white" font ",40" front
+set out "11_python_deconvoluted.eps" 
+splot "11_python_deconvoluted.txt" u ($1):($2/38*40):($3) notitle
 unset label
 
 set dgrid3d 51, 41 , 10 # , gauss 1,1 

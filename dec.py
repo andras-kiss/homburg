@@ -1,29 +1,31 @@
 #!/usr/bin/enc python
 
-# Python 2/3 compatibility
-from __future__ import print_function
-from scipy.ndimage.filters import gaussian_filter
-from skimage import color, data, restoration
+# Here is a first attempt at porting the deconvolution algorithm
+# from FORTRAN to python. The gaussian filter is not yet implemented
+# in the program. Right now I do it with the plotting software (gnuplot),
+# but it would be better if the python program did it. Also, I haven't
+# done the command line argument interpreter yet, so the file name must
+# be changed in the code every time. A GUI would be nice, and a live plot
+# of the convoluted and deconvoluted image. For that, the XYZ data needs
+# to be converted to a matrix.
 
 import numpy as np
-import cv2 as cv
+import subprocess
 
 conv_img = np.loadtxt("11.txt")
-deconv_img = conv_img
-#print (conv_img.shape[0])
+deconv_img = np.copy(conv_img)
 e0 = np.float32(conv_img[0][2])
 for n in range(0, conv_img.shape[0]):
-	#print (x)
-	deconv_img[n][2] = np.float32((conv_img[n][2]-e0*0.98)/(1-0.98))
-	y = np.float32(conv_img[0][2])
-	print (y)
+	deconv_img[n][2] = np.float32((conv_img[n][2]-e0*0.985)/(1-0.985))
+	e0 = np.float32(conv_img[n][2])
 
-np.savetxt("11__python_deconvoluted.txt", deconv_img, delimiter=" ")
+np.savetxt("11_python_deconvoluted.txt", deconv_img, delimiter=" ")
 
-#In: a = np.array([[1,2,3],[4,5,6]])
-#In: a.shape
-#Out: (2, 3)
-#In: a.shape[0] # x axis
-#Out: 2
-#In: a.shape[1] # y axis
-#Out: 3
+
+proc = subprocess.Popen(['gnuplot','-p'], 
+                        shell=True,
+                        stdin=subprocess.PIPE,
+                        )
+proc.stdin.write('set xrange [0:10]; set yrange [-2:2]\n')
+proc.stdin.write('plot sin(x)\n')
+# proc.stdin.write('quit\n') #close the gnuplot window
