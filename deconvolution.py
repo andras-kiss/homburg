@@ -65,7 +65,7 @@ if __name__ == '__main__':
     #    print('Failed to load file:', fn)
     #    sys.exit(1)
 
-    img = np.loadtxt("180628/2_matrix.txt")
+    img = np.loadtxt("180704/1_matrix.txt")
     #img = np.float32(img)/255.0
     #img = np.float32(img)/5.5
     img = np.float32(img)/np.float32(img.max())
@@ -106,14 +106,14 @@ if __name__ == '__main__':
         res = cv.idft(RES, flags=cv.DFT_SCALE | cv.DFT_REAL_OUTPUT )
         res = np.roll(res, -kh//2, 0)
         res = np.roll(res, -kw//2, 1)
-	lucy = restoration.richardson_lucy(complete, psf, iterations=3)
+	#lucy = restoration.richardson_lucy(complete, psf, iterations=3)
 
         #cv.imshow('deconvoluted', res)
 	newimage = cv.resize(res,(460,500))
 	cv.imshow('deconvoluted', newimage)
-	newimage_rl = cv.resize(lucy,(460,500))
-	cv.imshow('lucy', newimage_rl)
-	np.savetxt("180628/2_matrix_rl_deconvoluted.txt", lucy, delimiter=" ")
+	#newimage_rl = cv.resize(lucy,(460,500))
+	#cv.imshow('lucy', newimage_rl)
+	np.savetxt("180704/1_matrix_deconvoluted.txt", res, delimiter=" ")
 
     cv.namedWindow(win)
     cv.namedWindow('psf', 0)

@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0
 %%Title: 140514/6_original.eps
 %%Creator: gnuplot 5.0 patchlevel 5
-%%CreationDate: Mon Jul  2 10:01:43 2018
+%%CreationDate: Mon Jul  2 14:39:07 2018
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 554 770
 %%Orientation: Landscape
@@ -471,7 +471,7 @@ SDict begin [
   /Creator (gnuplot 5.0 patchlevel 5)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Mon Jul  2 10:01:43 2018)
+  /CreationDate (Mon Jul  2 14:39:07 2018)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -544,9 +544,9 @@ gsave % colour palette begin
   XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
   if} ifelse} ifelse} ifelse} def
 /InterpolatedColor false def
-/cF22 {3 mul 1 sub} bind def	% 3x-1
+/cF33 {2 mul 0.5 sub abs} bind def	% |2*x - 0.5|
 /cF13 {180 mul sin} bind def	% sin(180x)
-/cF31 {2 mul 0.84 sub} bind def	% 2*x-0.84
+/cF10 {90 mul cos} bind def	% cos(90x)
 /pm3dround {maxcolors 0 gt {dup 1 ge
 	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
 /pm3dGamma 1.0 1.5 Gamma mul div def
@@ -556,8 +556,7 @@ Color InterpolatedColor or { % COLOUR vs. GRAY map
     /g {stroke pm3dround /grayv exch def interpolate
         SelectSpace setrgbcolor} bind def
   }{
-  /g {stroke pm3dround dup cF22 Constrain exch dup cF13 Constrain exch 
-	1 exch sub cF31 Constrain 
+  /g {stroke pm3dround dup cF33 Constrain exch dup cF13 Constrain exch cF10 Constrain 
        SelectSpace setrgbcolor} bind def
   } ifelse
 }{
@@ -2858,9 +2857,7 @@ LTb
 LCb setrgbcolor
 LCb setrgbcolor
 3484 219 M
-[ [(Helvetica) 250.0 0.0 true true 0 (X / )]
-[(Symbol) 250.0 0.0 true true 0 (m)]
-[(Helvetica) 250.0 0.0 true true 0 (m)]
+[ [(CMMI10) 250.0 0.0 true true 0 (x)]
 ] -83.3 MCshow
 LTb
 1.000 UL
@@ -3349,5 +3346,5 @@ grestore
 end
 showpage
 %%Trailer
-%%DocumentFonts: Symbol Helvetica
+%%DocumentFonts: Symbol CMMI10 Helvetica
 %%Pages: 1

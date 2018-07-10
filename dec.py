@@ -12,15 +12,14 @@
 import numpy as np
 import subprocess
 
-conv_img = np.loadtxt("11.txt")
+conv_img = np.loadtxt("180704/4.txt")
 deconv_img = np.copy(conv_img)
 e0 = np.float32(conv_img[0][2])
 for n in range(0, conv_img.shape[0]):
-	deconv_img[n][2] = np.float32((conv_img[n][2]-e0*0.985)/(1-0.985))
+	deconv_img[n][2] = np.float32((conv_img[n][2]-e0*0.8)/(1-0.8))
 	e0 = np.float32(conv_img[n][2])
 
-np.savetxt("11_python_deconvoluted.txt", deconv_img, delimiter=" ")
-
+np.savetxt("180704/4_deconvoluted.txt", deconv_img, delimiter=" ")
 
 proc = subprocess.Popen(['gnuplot','-p'], 
                         shell=True,

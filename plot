@@ -1,6 +1,6 @@
 set size ratio 0.8
 set pm3d map
-set dgrid3d 51, 40, 10 , gauss 1,1 
+set dgrid3d 51, 40, 10, gauss 1,1 
 #set pm3d interpolate 3,3
 #set contour
 set cntrparam levels auto 10
@@ -17,8 +17,8 @@ set xlabel "X / {/Symbol m}m"
 set ylabel "Y / {/Symbol m}m"
 #set palette gray
 #set palette rgbformulae -30, -31, -32 # quickgrid
-set palette rgbformulae 22, 13, -31 # quickgrid
-#set palette rgbformulae 33, 13, 10 # rainbow
+#set palette rgbformulae 22, 13, -31 # quickgrid
+set palette rgbformulae 33, 13, 10 # rainbow
 set xtics font "Helvetica, 25"
 set ytics font "Helvetica, 25"
 set xlabel font ",25"
