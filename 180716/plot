@@ -1,0 +1,124 @@
+set size ratio 1
+set pm3d map
+set dgrid3d 41, 801 #, 10, gauss 0.5,0.1 
+set pm3d interpolate 3,3
+#set isosamples 2
+#set contour
+set cntrparam levels auto 10
+#set key outside
+#set term jpeg
+
+#set terminal png size 400,300
+
+set term postscript enhanced color
+
+#set terminal pdf
+
+set xlabel "X / {/Symbol m}m"
+set ylabel "Y / {/Symbol m}m"
+#set palette gray
+#set palette rgbformulae -30, -31, -32 # quickgrid
+#set palette rgbformulae 22, 13, -31 # quickgrid
+set palette rgbformulae 33, 13, 10 # rainbow
+#set palette rgbformulae -10, -13, -26 # rainbow with yellow
+#set palette rgbformulae 34,35,36 # AFM like
+set xtics font "Helvetica, 25"
+set ytics font "Helvetica, 25"
+set xlabel font ",25"
+set ylabel font ",25"
+set cblabel font ",25"
+set cbtics font ",25"
+set cblabel offset 4,0
+set ylabel offset -3,0
+set xlabel offset 0,-1
+set xtics 0, 10, 40
+set ytics 0, 10, 40
+set yrange [0:40]
+set xrange [0:40]
+set lmargin 0
+
+### SCANS
+#set colorbox vertical user origin .7, 0 size 0.02, 0.5 
+#set colorbox horizontal
+set cblabel "i / pA"
+
+#set object 1 circle at 45,5 size 5 fc rgb "black" front
+set cbrange [-800:-720]
+
+set dgrid3d 41, 801 #, 10, gauss 0.5,0.1 
+set label "fast comb 5 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "8.eps" 
+splot "8.txt" u ($1):($2):($3) notitle
+unset label
+
+set dgrid3d 41, 401 #, 10, gauss 0.5,0.1 
+set label "meander 10 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "9.eps" 
+splot "9.txt" u ($1):($2):($3) notitle
+unset label
+
+set dgrid3d 41, 201 #, 10, gauss 0.5,0.1 
+set label "meander 20 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "10.eps" 
+splot "10.txt" u ($1):($2):($3) notitle
+unset label
+
+set dgrid3d 41, 81 #, 10, gauss 0.5,0.1 
+set label "meander 50 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "11.eps" 
+splot "11.txt" u ($1):($2):($3) notitle
+unset label
+
+
+set dgrid3d 41, 801 #, 10, gauss 0.5,0.1 
+set cbrange [-780:-720]
+set label "fast comb 5 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "180716_E2_8.eps" 
+splot "180716_E2_8.txt" u ($1):($2):($3) notitle
+unset label
+
+set dgrid3d 41, 401 #, 10, gauss 0.5,0.1 
+set cbrange [-800:-760]
+set label "meander 10 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "180716_E2_9.eps" 
+splot "180716_E2_9.txt" u ($1):($2):($3) notitle
+unset label
+
+set dgrid3d 41, 201 #, 10, gauss 0.5,0.1 
+set cbrange [-820:-790]
+set label "meander 20 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "180716_E2_10.eps" 
+splot "180716_E2_10.txt" u ($1):($2):($3) notitle
+unset label
+
+set dgrid3d 41, 81 #, 10, gauss 0.5,0.1 
+set cbrange [-870:-830]
+set label "meander 50 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "180716_E2_11.eps" 
+splot "180716_E2_11.txt" u ($1):($2):($3) notitle
+unset label
+
+
+# 41x41 fixed scale
+set cbrange [-800:-720]
+
+set dgrid3d 41, 41 #, 10, gauss 0.5,0.1 
+set label "fast comb 5 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "8_41.eps" 
+splot "8_41.txt" u ($1):($2):($3) notitle
+unset label
+
+set label "meander 10 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "9_41.eps" 
+splot "9_41.txt" u ($1):($2):($3) notitle
+unset label
+
+set label "meander 20 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "10_41.eps" 
+splot "10_41.txt" u ($1):($2):($3) notitle
+unset label
+
+set label "meander 50 {/Symbol m}m/s" at 1, 37 tc rgb "white" font ",40" front
+set out "11_41.eps" 
+splot "11_41.txt" u ($1):($2):($3) notitle
+unset label
