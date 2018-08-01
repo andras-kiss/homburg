@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="786.66785"
+   height="676.59277"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="trade-off.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497476"
+     inkscape:cx="338.54119"
+     inkscape:cy="242.26405"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="731"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(7.0484314,-112.83427)">
+    <path
+       id="path2992"
+       inkscape:label="Triangle"
+       style="fill:#00ff00;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:0.32338309"
+       d="m 92.394966,690.33047 553.781514,0 L 369.28572,210.74161 92.394966,690.33047 z"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="364.4632"
+       y="143.2249"
+       id="text3766"><tspan
+         sodipodi:role="line"
+         id="tspan3768"
+         x="364.4632"
+         y="143.2249"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">short</tspan><tspan
+         sodipodi:role="line"
+         x="364.4632"
+         y="193.2249"
+         id="tspan3770"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">scan time</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="668.70142"
+       y="731.10675"
+       id="text3766-1"><tspan
+         sodipodi:role="line"
+         x="668.70142"
+         y="731.10675"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"
+         id="tspan3798">high # of</tspan><tspan
+         sodipodi:role="line"
+         x="668.70142"
+         y="781.10675"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"
+         id="tspan3821">data points</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="-836.40631"
+       y="260.40259"
+       id="text3800"><tspan
+         sodipodi:role="line"
+         id="tspan3802"
+         x="-836.40631"
+         y="260.40259"
+         style="font-size:56px;line-height:1.25;font-family:sans-serif"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="86.057037"
+       y="731.73224"
+       id="text3766-7"><tspan
+         sodipodi:role="line"
+         x="86.057037"
+         y="731.73224"
+         id="tspan3770-9"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif">low</tspan><tspan
+         sodipodi:role="line"
+         x="86.057037"
+         y="781.73224"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"
+         id="tspan3817">distortion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="368.75366"
+       y="498.79855"
+       id="text3823"><tspan
+         sodipodi:role="line"
+         id="tspan3825"
+         x="368.75366"
+         y="498.79855"
+         style="font-size:56px;line-height:1.25;font-family:sans-serif">SECM</tspan><tspan
+         sodipodi:role="line"
+         x="368.75366"
+         y="568.79858"
+         id="tspan3827"
+         style="font-size:56px;line-height:1.25;font-family:sans-serif">imaging</tspan></text>
+  </g>
+</svg>

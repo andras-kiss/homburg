@@ -1,0 +1,29 @@
+dear ladies and gm
+
+its my pleasure to be here
+
+its really humbling for me to talk about my SECM study in a conference opened by the inventor of the technique, prof AJB, and with all the important figures contributing to this technique here in the audience
+
+so, aaaa, its very humbling, im actually a bit nervous so please forgive me if im start making not too much sense
+
+aaaa, im doing my phd at the university of pécs in hungary, at the dgpc
+
+our electrochemistry rs group is lead by my supervisor, prof nagy
+im sure many of you know him from the book on SECM, and conferences like this, and ofc from the countless research papers
+
+our rs group is quite small, besides prof nagy the other three members are LN, OZSE, and myself, András Kiss
+
+I focus on the potentiometric operation of the SECM
+
+I would like talk about the potentiometric operation briefly.
+its a scanning technique, we have one measuring electrode, and we are moving this probe to cover all the data aquisition points of a 2D raster pattern above the target of interest, while measuring the potential at each point to construct an image
+
+early on when I started to work with the technique I realized there was one fundamental issue with it, which is a lot bigger issue here than in the amperometric mode and it has to do with the response time of the potentiometric cell
+
+
+
+if we are scanning above a radially symmetric target such as this one, we should get an image like this. perfectly symmetric, resembling the circular character of the target, because it actually creates a hemispherical concentration disrtibution
+
+but instead of this, we get
+
+this.

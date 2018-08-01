@@ -31204,7 +31204,7 @@ ColorPolicy	0
 </matrix>
 <multiLayer>
 Graph2	1	1	7/10/18 12:05 AM
-geometry	540	316	540	457	
+geometry	526	219	540	533	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -31213,8 +31213,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	522	396
-<PageGeometry>0.0093985	0.0121655	0.981203	0.963504</PageGeometry>
+ggeometry	5	5	522	472
+<PageGeometry>0.0093985	0.0102669	0.981203	0.969199</PageGeometry>
 PlotTitle	Title	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -31231,15 +31231,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Sans Serif	11	75	0	0	0
-ScaleFont0	Sans Serif	9	75	0	0	0
-ScaleFont1	Sans Serif	9	75	0	0	0
-ScaleFont2	Sans Serif	9	75	0	0	0
-ScaleFont3	Sans Serif	9	75	0	0	0
-AxisFont0	Sans Serif	9	50	0	0	0
-AxisFont1	Sans Serif	9	50	0	0	0
-AxisFont2	Sans Serif	9	50	0	0	0
-AxisFont3	Sans Serif	9	50	0	0	0
+TitleFont	Sans Serif	13	75	0	0	0
+ScaleFont0	Sans Serif	11	75	0	0	0
+ScaleFont1	Sans Serif	11	75	0	0	0
+ScaleFont2	Sans Serif	11	75	0	0	0
+ScaleFont3	Sans Serif	11	75	0	0	0
+AxisFont0	Sans Serif	11	50	0	0	0
+AxisFont1	Sans Serif	11	50	0	0	0
+AxisFont2	Sans Serif	11	50	0	0	0
+AxisFont3	Sans Serif	11	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -31253,7 +31253,7 @@ CanvasBackground	#ffffff	0
 	<Mode>1</Mode>
 	<MinColor>#0000ff</MinColor>
 	<MaxColor>#ff0000</MaxColor>
-	<Range>80	140</Range>
+	<Range>100	120</Range>
 	<ColorStops>1</ColorStops>
 	<Stop>0	#0000ff</Stop>
 </ColorMap>
@@ -31288,7 +31288,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph3	1	1	7/10/18 12:05 AM
-geometry	1066	312	540	457	active
+geometry	1036	220	540	523	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -31297,8 +31297,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	522	396
-<PageGeometry>0.0093985	0.0121655	0.981203	0.963504</PageGeometry>
+ggeometry	5	5	522	466
+<PageGeometry>0.0093985	0.0104822	0.981203	0.976939</PageGeometry>
 PlotTitle	Title	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -31315,15 +31315,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Sans Serif	11	75	0	0	0
-ScaleFont0	Sans Serif	9	75	0	0	0
-ScaleFont1	Sans Serif	9	75	0	0	0
-ScaleFont2	Sans Serif	9	75	0	0	0
-ScaleFont3	Sans Serif	9	75	0	0	0
-AxisFont0	Sans Serif	9	50	0	0	0
-AxisFont1	Sans Serif	9	50	0	0	0
-AxisFont2	Sans Serif	9	50	0	0	0
-AxisFont3	Sans Serif	9	50	0	0	0
+TitleFont	Sans Serif	13	75	0	0	0
+ScaleFont0	Sans Serif	10	75	0	0	0
+ScaleFont1	Sans Serif	10	75	0	0	0
+ScaleFont2	Sans Serif	10	75	0	0	0
+ScaleFont3	Sans Serif	10	75	0	0	0
+AxisFont0	Sans Serif	10	50	0	0	0
+AxisFont1	Sans Serif	10	50	0	0	0
+AxisFont2	Sans Serif	10	50	0	0	0
+AxisFont3	Sans Serif	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -31372,7 +31372,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph4	1	1	7/10/18 12:06 AM
-geometry	0	316	540	457	
+geometry	13	218	540	541	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -31381,8 +31381,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	522	396
-<PageGeometry>0.0093985	0.0121655	0.981203	0.963504</PageGeometry>
+ggeometry	5	5	522	480
+<PageGeometry>0.0093985	0.010101	0.981203	0.969697</PageGeometry>
 PlotTitle	Title	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -31399,15 +31399,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Sans Serif	11	75	0	0	0
-ScaleFont0	Sans Serif	9	75	0	0	0
-ScaleFont1	Sans Serif	9	75	0	0	0
-ScaleFont2	Sans Serif	9	75	0	0	0
-ScaleFont3	Sans Serif	9	75	0	0	0
-AxisFont0	Sans Serif	9	50	0	0	0
-AxisFont1	Sans Serif	9	50	0	0	0
-AxisFont2	Sans Serif	9	50	0	0	0
-AxisFont3	Sans Serif	9	50	0	0	0
+TitleFont	Sans Serif	13	75	0	0	0
+ScaleFont0	Sans Serif	11	75	0	0	0
+ScaleFont1	Sans Serif	11	75	0	0	0
+ScaleFont2	Sans Serif	11	75	0	0	0
+ScaleFont3	Sans Serif	11	75	0	0	0
+AxisFont0	Sans Serif	11	50	0	0	0
+AxisFont1	Sans Serif	11	50	0	0	0
+AxisFont2	Sans Serif	11	50	0	0	0
+AxisFont3	Sans Serif	11	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -31421,7 +31421,7 @@ CanvasBackground	#ffffff	0
 	<Mode>1</Mode>
 	<MinColor>#0000ff</MinColor>
 	<MaxColor>#ff0000</MaxColor>
-	<Range>80	140</Range>
+	<Range>100	120</Range>
 	<ColorStops>1</ColorStops>
 	<Stop>0	#0000ff</Stop>
 </ColorMap>
