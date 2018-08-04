@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="540.02405mm"
+   height="305.87814mm"
+   viewBox="0 0 540.02405 305.87814"
+   version="1.1"
+   id="svg252"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="wire.svg">
+  <defs
+     id="defs246">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient362">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop358" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop360" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient362"
+       id="linearGradient364"
+       x1="-57.452381"
+       y1="-94.583336"
+       x2="-45.735119"
+       y2="-94.583336"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.5610104,277.92234,192.32333)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="1140.9026"
+     inkscape:cy="429.71928"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="863"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata249">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(109.61311,78.803723)">
+    <rect
+       style="opacity:0.49500002;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:1.63264549;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect12-7"
+       width="540.02405"
+       height="52.160713"
+       x="-109.6131"
+       y="174.9137" />
+    <rect
+       style="opacity:0.49500002;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.74967724;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect12-0"
+       width="113.86176"
+       height="52.160713"
+       x="61.051929"
+       y="-430.41095"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:0.49500002;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.74967724;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect12-0-9"
+       width="113.86177"
+       height="52.160713"
+       x="61.051926"
+       y="57.452393"
+       transform="rotate(90)" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient364);fill-opacity:1;stroke:none;stroke-width:1.24940395;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect356"
+       width="12.828938"
+       height="201.92987"
+       x="219.12296"
+       y="-51.645691" />
+    <g
+       id="g374"
+       transform="translate(246.54029,149.95343)"
+       style="fill:#cccccc">
+      <path
+         id="path368"
+         style="opacity:0.28900003;fill:#cccccc;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -41.446093,0.67811881 c 0,0 0,-1.069079 -7.48355,-76.97362281 -7.48355,-75.904546 -51.315747,-111.184126 -52.384827,-124.013066 H 60.755642 C 59.686567,-187.47964 15.854367,-152.20006 8.3708171,-76.295508 0.88726714,-0.39096019 0.88726714,0.67811881 0.88726714,0.67811881 Z"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csccscc" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.93333602;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 247.42756,150.63155 H 63.169238"
+       id="path1182"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.65430832px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36635771"
+       x="206.46706"
+       y="-56.57349"
+       id="text1186"><tspan
+         sodipodi:role="line"
+         id="tspan1184"
+         x="206.46706"
+         y="-56.57349"
+         style="stroke-width:0.36635771">Pt wire</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.65430832px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36635771"
+       x="254.16588"
+       y="2.8031676"
+       id="text1190"><tspan
+         sodipodi:role="line"
+         id="tspan1188"
+         x="254.16588"
+         y="2.8031676"
+         style="stroke-width:0.36635771">glass sealing</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.72401237px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49310029"
+       x="316.52631"
+       y="199.80371"
+       id="text1194"
+       transform="scale(0.97511383,1.0255213)"><tspan
+         sodipodi:role="line"
+         id="tspan1192"
+         x="316.52631"
+         y="199.80371"
+         style="stroke-width:0.49310029">Petri-dish</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.39881611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.35997039"
+       x="174.58183"
+       y="178.26764"
+       id="text1198"><tspan
+         sodipodi:role="line"
+         id="tspan1196"
+         x="174.58183"
+         y="178.26764"
+         style="stroke-width:0.35997039">Pt wire</tspan></text>
+    <rect
+       style="opacity:0.28900003;fill:#00ffff;stroke:none;stroke-width:0.77823579;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect1200"
+       width="435.70264"
+       height="68.96048"
+       x="-57.452393"
+       y="105.95322" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.42196655px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.43554917"
+       x="-52.263943"
+       y="146.42854"
+       id="text1204"><tspan
+         sodipodi:role="line"
+         id="tspan1202"
+         x="-52.263943"
+         y="146.42854"
+         style="stroke-width:0.43554917">ferrocene</tspan><tspan
+         sodipodi:role="line"
+         x="-52.263943"
+         y="168.20599"
+         style="stroke-width:0.43554917"
+         id="tspan1208">in 0.1 M KCl</tspan></text>
+    <ellipse
+       style="opacity:0.28900003;fill:#1a1a1a;stroke:none;stroke-width:0.67211038;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path1298"
+       cx="176.72195"
+       cy="164.54446"
+       rx="10.334104"
+       ry="10.145116" />
+  </g>
+</svg>

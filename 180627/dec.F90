@@ -4,7 +4,7 @@ implicit none
 integer :: stat
 real i, j, rc, e0, conv
 
-rc=0.5
+rc=0.4
 
 open(1,file='7.txt')
 open(2,file='7_deconvoluted.txt')
