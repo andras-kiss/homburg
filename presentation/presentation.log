@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  4 AUG 2018 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  5 AUG 2018 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2532,7 +2532,7 @@ to.pdf amperometry.eps>
 (epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<amperometry-eps-converted-to.pdf, id=752, 1750.54pt x 1186.4325pt>
+<amperometry-eps-converted-to.pdf, id=753, 1750.54pt x 1186.4325pt>
 File: amperometry-eps-converted-to.pdf Graphic file (type pdf)
 
 <use amperometry-eps-converted-to.pdf>
@@ -2552,7 +2552,7 @@ Package epstopdf Info: Source file: <cottrell.eps>
 pdf cottrell.eps>
 (epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
- <cottrell-eps-converted-to.pdf, id=781, 1345.025pt x 740.7675pt>
+ <cottrell-eps-converted-to.pdf, id=782, 1345.025pt x 740.7675pt>
 File: cottrell-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cottrell-eps-converted-to.pdf>
@@ -2572,7 +2572,7 @@ pdf monocyte.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<monocyte-eps-converted-to.pdf, id=817, 898.35625pt x 542.025pt>
+<monocyte-eps-converted-to.pdf, id=818, 898.35625pt x 542.025pt>
 File: monocyte-eps-converted-to.pdf Graphic file (type pdf)
 
 <use monocyte-eps-converted-to.pdf>
@@ -2592,7 +2592,7 @@ step.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<step-eps-converted-to.pdf, id=857, 1536.74126pt x 872.25874pt>
+<step-eps-converted-to.pdf, id=858, 1536.74126pt x 872.25874pt>
 File: step-eps-converted-to.pdf Graphic file (type pdf)
 
 <use step-eps-converted-to.pdf>
@@ -2612,7 +2612,7 @@ ps>
 (epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
 
-<1-eps-converted-to.pdf, id=887, 505.89pt x 722.7pt>
+<1-eps-converted-to.pdf, id=888, 505.89pt x 722.7pt>
 File: 1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1-eps-converted-to.pdf>
@@ -2629,7 +2629,7 @@ to.pdf 2_meandered.eps>
 (epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_meandered-eps-converted-to.pdf, id=889, 505.89pt x 722.7pt>
+<2_meandered-eps-converted-to.pdf, id=890, 505.89pt x 722.7pt>
 File: 2_meandered-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_meandered-eps-converted-to.pdf>
@@ -2648,7 +2648,7 @@ ps-converted-to.pdf 2_meandered_deconvoluted.eps>
 (epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_meandered_deconvoluted-eps-converted-to.pdf, id=891, 505.89pt x 722.7pt>
+<2_meandered_deconvoluted-eps-converted-to.pdf, id=892, 505.89pt x 722.7pt>
 File: 2_meandered_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_meandered_deconvoluted-eps-converted-to.pdf>
@@ -2660,22 +2660,22 @@ input line 310.
  <./1-eps-converted-to.pdf> <./2_meandered-eps-converted-to.pdf> <./2_meandered
 _deconvoluted-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <step_conv.eps>
-(epstopdf)                    date: 2018-08-03 15:43:36
-(epstopdf)                    size: 110383 bytes
+(epstopdf)                    date: 2018-08-05 09:49:48
+(epstopdf)                    size: 200086 bytes
 (epstopdf)             Output file: <step_conv-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-03 15:45:58
-(epstopdf)                    size: 101158 bytes
+(epstopdf)                    date: 2018-08-05 09:50:00
+(epstopdf)                    size: 207717 bytes
 (epstopdf)             Command: <repstopdf --outfile=step_conv-eps-converted-to
 .pdf step_conv.eps>
 (epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
- <step_conv-eps-converted-to.pdf, id=948, 811.03pt x 757.83125pt>
+ <step_conv-eps-converted-to.pdf, id=949, 889.3225pt x 819.06pt>
 File: step_conv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use step_conv-eps-converted-to.pdf>
 Package pdftex.def Info: step_conv-eps-converted-to.pdf used on input line 318.
 
-(pdftex.def)             Requested size: 184.3758pt x 172.2739pt.
+(pdftex.def)             Requested size: 184.3758pt x 169.80806pt.
  [25
 
  <./step_conv-eps-converted-to.pdf>]
@@ -2690,7 +2690,7 @@ wire.eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<wire-eps-converted-to.pdf, id=978, 1536.74126pt x 872.25874pt>
+<wire-eps-converted-to.pdf, id=983, 1536.74126pt x 872.25874pt>
 File: wire-eps-converted-to.pdf Graphic file (type pdf)
 
 <use wire-eps-converted-to.pdf>
@@ -2699,6 +2699,27 @@ Package pdftex.def Info: wire-eps-converted-to.pdf used on input line 327.
  [26
 
  <./wire-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <wire_photo.eps>
+(epstopdf)                    date: 2018-08-05 10:03:11
+(epstopdf)                    size: 689749 bytes
+(epstopdf)             Output file: <wire_photo-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-08-05 10:04:05
+(epstopdf)                    size: 347681 bytes
+(epstopdf)             Command: <repstopdf --outfile=wire_photo-eps-converted-t
+o.pdf wire_photo.eps>
+(epstopdf)             \includegraphics on input line 335.
+Package epstopdf Info: Output file is already uptodate.
+
+<wire_photo-eps-converted-to.pdf, id=1013, 593.21625pt x 596.2275pt>
+File: wire_photo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use wire_photo-eps-converted-to.pdf>
+Package pdftex.def Info: wire_photo-eps-converted-to.pdf used on input line 335
+.
+(pdftex.def)             Requested size: 184.3758pt x 185.31079pt.
+ [27
+
+ <./wire_photo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <7.eps>
 (epstopdf)                    date: 2018-08-03 14:54:50
 (epstopdf)                    size: 159751 bytes
@@ -2707,14 +2728,14 @@ Package epstopdf Info: Source file: <7.eps>
 (epstopdf)                    size: 106775 bytes
 (epstopdf)             Command: <repstopdf --outfile=7-eps-converted-to.pdf 7.e
 ps>
-(epstopdf)             \includegraphics on input line 338.
+(epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 
-<7-eps-converted-to.pdf, id=1008, 505.89pt x 722.7pt>
+<7-eps-converted-to.pdf, id=1046, 505.89pt x 722.7pt>
 File: 7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 7-eps-converted-to.pdf>
-Package pdftex.def Info: 7-eps-converted-to.pdf used on input line 338.
+Package pdftex.def Info: 7-eps-converted-to.pdf used on input line 347.
 (pdftex.def)             Requested size: 122.91406pt x 171.4059pt.
 Package epstopdf Info: Source file: <7_deconvoluted.eps>
 (epstopdf)                    date: 2018-08-03 14:54:50
@@ -2724,22 +2745,22 @@ Package epstopdf Info: Source file: <7_deconvoluted.eps>
 (epstopdf)                    size: 105544 bytes
 (epstopdf)             Command: <repstopdf --outfile=7_deconvoluted-eps-convert
 ed-to.pdf 7_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 338.
+(epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 
-<7_deconvoluted-eps-converted-to.pdf, id=1010, 505.89pt x 722.7pt>
+<7_deconvoluted-eps-converted-to.pdf, id=1048, 505.89pt x 722.7pt>
 File: 7_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 7_deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: 7_deconvoluted-eps-converted-to.pdf used on input line
- 338.
+ 347.
 (pdftex.def)             Requested size: 122.91406pt x 156.75583pt.
 
-Overfull \hbox (20.87186pt too wide) in paragraph at lines 338--338
+Overfull \hbox (20.87186pt too wide) in paragraph at lines 347--347
  [][][] 
  []
 
-[27
+[28
 
  <./7-eps-converted-to.pdf> <./7_deconvoluted-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <original.eps>
@@ -2750,14 +2771,14 @@ Package epstopdf Info: Source file: <original.eps>
 (epstopdf)                    size: 305418 bytes
 (epstopdf)             Command: <repstopdf --outfile=original-eps-converted-to.
 pdf original.eps>
-(epstopdf)             \includegraphics on input line 354.
+(epstopdf)             \includegraphics on input line 363.
 Package epstopdf Info: Output file is already uptodate.
 
-<original-eps-converted-to.pdf, id=1057, 543.02875pt x 258.9675pt>
+<original-eps-converted-to.pdf, id=1095, 543.02875pt x 258.9675pt>
 File: original-eps-converted-to.pdf Graphic file (type pdf)
 
 <use original-eps-converted-to.pdf>
-Package pdftex.def Info: original-eps-converted-to.pdf used on input line 354.
+Package pdftex.def Info: original-eps-converted-to.pdf used on input line 363.
 (pdftex.def)             Requested size: 153.64493pt x 73.27304pt.
 Package epstopdf Info: Source file: <deconvoluted.eps>
 (epstopdf)                    date: 2018-08-04 10:43:18
@@ -2767,17 +2788,17 @@ Package epstopdf Info: Source file: <deconvoluted.eps>
 (epstopdf)                    size: 316451 bytes
 (epstopdf)             Command: <repstopdf --outfile=deconvoluted-eps-converted
 -to.pdf deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 354.
+(epstopdf)             \includegraphics on input line 363.
 Package epstopdf Info: Output file is already uptodate.
 
-<deconvoluted-eps-converted-to.pdf, id=1058, 542.025pt x 259.97125pt>
+<deconvoluted-eps-converted-to.pdf, id=1096, 542.025pt x 259.97125pt>
 File: deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: deconvoluted-eps-converted-to.pdf used on input line 3
-54.
+63.
 (pdftex.def)             Requested size: 153.64493pt x 73.69193pt.
- [28
+ [29
 
  <./original-eps-converted-to.pdf> <./deconvoluted-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <oxygen.eps>
@@ -2788,16 +2809,16 @@ Package epstopdf Info: Source file: <oxygen.eps>
 (epstopdf)                    size: 1885874 bytes
 (epstopdf)             Command: <repstopdf --outfile=oxygen-eps-converted-to.pd
 f oxygen.eps>
-(epstopdf)             \includegraphics on input line 363.
+(epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
 
-<oxygen-eps-converted-to.pdf, id=1305, 1110.1475pt x 444.66125pt>
+<oxygen-eps-converted-to.pdf, id=1344, 1110.1475pt x 444.66125pt>
 File: oxygen-eps-converted-to.pdf Graphic file (type pdf)
 
 <use oxygen-eps-converted-to.pdf>
-Package pdftex.def Info: oxygen-eps-converted-to.pdf used on input line 363.
+Package pdftex.def Info: oxygen-eps-converted-to.pdf used on input line 372.
 (pdftex.def)             Requested size: 307.28987pt x 123.07945pt.
- [29
+ [30
 
  <./oxygen-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <9_41.eps>
@@ -2808,14 +2829,14 @@ Package epstopdf Info: Source file: <9_41.eps>
 (epstopdf)                    size: 316212 bytes
 (epstopdf)             Command: <repstopdf --outfile=9_41-eps-converted-to.pdf 
 9_41.eps>
-(epstopdf)             \includegraphics on input line 377.
+(epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<9_41-eps-converted-to.pdf, id=1339, 505.89pt x 722.7pt>
+<9_41-eps-converted-to.pdf, id=1377, 505.89pt x 722.7pt>
 File: 9_41-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 9_41-eps-converted-to.pdf>
-Package pdftex.def Info: 9_41-eps-converted-to.pdf used on input line 377.
+Package pdftex.def Info: 9_41-eps-converted-to.pdf used on input line 386.
 (pdftex.def)             Requested size: 122.91406pt x 156.75583pt.
 Package epstopdf Info: Source file: <9_41_meandered_deconvoluted.eps>
 (epstopdf)                    date: 2018-07-23 14:11:42
@@ -2826,26 +2847,26 @@ to.pdf>
 (epstopdf)                    size: 309867 bytes
 (epstopdf)             Command: <repstopdf --outfile=9_41_meandered_deconvolute
 d-eps-converted-to.pdf 9_41_meandered_deconvoluted.eps>
-(epstopdf)             \includegraphics on input line 377.
+(epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<9_41_meandered_deconvoluted-eps-converted-to.pdf, id=1341, 505.89pt x 722.7pt>
+<9_41_meandered_deconvoluted-eps-converted-to.pdf, id=1379, 505.89pt x 722.7pt>
 File: 9_41_meandered_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 <use 9_41_meandered_deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: 9_41_meandered_deconvoluted-eps-converted-to.pdf used 
-on input line 377.
+on input line 386.
 (pdftex.def)             Requested size: 122.91406pt x 156.75583pt.
 
-Overfull \hbox (6.22179pt too wide) in paragraph at lines 377--377
+Overfull \hbox (6.22179pt too wide) in paragraph at lines 386--386
  [][][] 
  []
 
-[30
+[31
 
  <./9_41-eps-converted-to.pdf> <./9_41_meandered_deconvoluted-eps-converted-to.
-pdf>] [31
+pdf>] [32
 
-] [32
+] [33
 
 ]
 \tf@nav=\write6
@@ -2857,11 +2878,11 @@ pdf>] [31
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 433.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 433.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 433.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2871,11 +2892,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 44299 strings out of 493013
- 1003091 string characters out of 6135682
- 1231505 words of memory out of 5000000
- 46950 multiletter control sequences out of 15000+600000
- 20045 words of font info for 73 fonts, out of 8000000 for 9000
+ 44311 strings out of 493013
+ 1003312 string characters out of 6135682
+ 1231541 words of memory out of 5000000
+ 46958 multiletter control sequences out of 15000+600000
+ 20402 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,15n,98p,10375b,1056s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSans-Bold.pfb>
@@ -2895,10 +2916,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on presentation.pdf (32 pages, 13464394 bytes).
+Output written on presentation.pdf (33 pages, 13919021 bytes).
 PDF statistics:
- 1509 PDF objects out of 1728 (max. 8388607)
- 1082 compressed objects within 11 object streams
- 65 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1550 PDF objects out of 1728 (max. 8388607)
+ 1115 compressed objects within 12 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
