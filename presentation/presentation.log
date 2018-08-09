@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  5 AUG 2018 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.1.10)  6 AUG 2018 08:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2532,7 +2532,7 @@ to.pdf amperometry.eps>
 (epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<amperometry-eps-converted-to.pdf, id=753, 1750.54pt x 1186.4325pt>
+<amperometry-eps-converted-to.pdf, id=752, 1750.54pt x 1186.4325pt>
 File: amperometry-eps-converted-to.pdf Graphic file (type pdf)
 
 <use amperometry-eps-converted-to.pdf>
@@ -2552,7 +2552,7 @@ Package epstopdf Info: Source file: <cottrell.eps>
 pdf cottrell.eps>
 (epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
- <cottrell-eps-converted-to.pdf, id=782, 1345.025pt x 740.7675pt>
+ <cottrell-eps-converted-to.pdf, id=781, 1345.025pt x 740.7675pt>
 File: cottrell-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cottrell-eps-converted-to.pdf>
@@ -2572,7 +2572,7 @@ pdf monocyte.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<monocyte-eps-converted-to.pdf, id=818, 898.35625pt x 542.025pt>
+<monocyte-eps-converted-to.pdf, id=817, 898.35625pt x 542.025pt>
 File: monocyte-eps-converted-to.pdf Graphic file (type pdf)
 
 <use monocyte-eps-converted-to.pdf>
@@ -2581,7 +2581,7 @@ Package pdftex.def Info: monocyte-eps-converted-to.pdf used on input line 291.
  [22
 
  <./monocyte-eps-converted-to.pdf>]
-<heka.jpg, id=858, 3982.88pt x 2987.16pt>
+<heka.jpg, id=857, 3982.88pt x 2987.16pt>
 File: heka.jpg Graphic file (type jpg)
  <use heka.jpg>
 Package pdftex.def Info: heka.jpg used on input line 298.
@@ -2600,7 +2600,7 @@ step.eps>
 (epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 
-<step-eps-converted-to.pdf, id=885, 1536.74126pt x 872.25874pt>
+<step-eps-converted-to.pdf, id=884, 1536.74126pt x 872.25874pt>
 File: step-eps-converted-to.pdf Graphic file (type pdf)
 
 <use step-eps-converted-to.pdf>
@@ -2620,7 +2620,7 @@ ps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<1-eps-converted-to.pdf, id=914, 505.89pt x 722.7pt>
+<1-eps-converted-to.pdf, id=913, 505.89pt x 722.7pt>
 File: 1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 1-eps-converted-to.pdf>
@@ -2637,7 +2637,7 @@ to.pdf 2_meandered.eps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_meandered-eps-converted-to.pdf, id=916, 505.89pt x 722.7pt>
+<2_meandered-eps-converted-to.pdf, id=915, 505.89pt x 722.7pt>
 File: 2_meandered-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_meandered-eps-converted-to.pdf>
@@ -2656,7 +2656,7 @@ ps-converted-to.pdf 2_meandered_deconvoluted.eps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<2_meandered_deconvoluted-eps-converted-to.pdf, id=918, 505.89pt x 722.7pt>
+<2_meandered_deconvoluted-eps-converted-to.pdf, id=917, 505.89pt x 722.7pt>
 File: 2_meandered_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 2_meandered_deconvoluted-eps-converted-to.pdf>
@@ -2677,7 +2677,7 @@ Package epstopdf Info: Source file: <step_conv.eps>
 .pdf step_conv.eps>
 (epstopdf)             \includegraphics on input line 328.
 Package epstopdf Info: Output file is already uptodate.
- <step_conv-eps-converted-to.pdf, id=976, 889.3225pt x 819.06pt>
+ <step_conv-eps-converted-to.pdf, id=975, 889.3225pt x 819.06pt>
 File: step_conv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use step_conv-eps-converted-to.pdf>
@@ -2698,7 +2698,7 @@ wire.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
 
-<wire-eps-converted-to.pdf, id=1010, 1536.74126pt x 872.25874pt>
+<wire-eps-converted-to.pdf, id=1009, 1536.74126pt x 872.25874pt>
 File: wire-eps-converted-to.pdf Graphic file (type pdf)
 
 <use wire-eps-converted-to.pdf>
@@ -2718,7 +2718,7 @@ o.pdf wire_photo.eps>
 (epstopdf)             \includegraphics on input line 345.
 Package epstopdf Info: Output file is already uptodate.
 
-<wire_photo-eps-converted-to.pdf, id=1039, 593.21625pt x 596.2275pt>
+<wire_photo-eps-converted-to.pdf, id=1038, 593.21625pt x 596.2275pt>
 File: wire_photo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use wire_photo-eps-converted-to.pdf>
@@ -2739,7 +2739,7 @@ ps>
 (epstopdf)             \includegraphics on input line 357.
 Package epstopdf Info: Output file is already uptodate.
 
-<7-eps-converted-to.pdf, id=1072, 505.89pt x 722.7pt>
+<7-eps-converted-to.pdf, id=1071, 505.89pt x 722.7pt>
 File: 7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 7-eps-converted-to.pdf>
@@ -2756,7 +2756,7 @@ ed-to.pdf 7_deconvoluted.eps>
 (epstopdf)             \includegraphics on input line 357.
 Package epstopdf Info: Output file is already uptodate.
 
-<7_deconvoluted-eps-converted-to.pdf, id=1074, 505.89pt x 722.7pt>
+<7_deconvoluted-eps-converted-to.pdf, id=1073, 505.89pt x 722.7pt>
 File: 7_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 7_deconvoluted-eps-converted-to.pdf>
@@ -2782,7 +2782,7 @@ pdf original.eps>
 (epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 
-<original-eps-converted-to.pdf, id=1122, 543.02875pt x 258.9675pt>
+<original-eps-converted-to.pdf, id=1121, 543.02875pt x 258.9675pt>
 File: original-eps-converted-to.pdf Graphic file (type pdf)
 
 <use original-eps-converted-to.pdf>
@@ -2799,7 +2799,7 @@ Package epstopdf Info: Source file: <deconvoluted.eps>
 (epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 
-<deconvoluted-eps-converted-to.pdf, id=1123, 542.025pt x 259.97125pt>
+<deconvoluted-eps-converted-to.pdf, id=1122, 542.025pt x 259.97125pt>
 File: deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 
 <use deconvoluted-eps-converted-to.pdf>
@@ -2820,7 +2820,7 @@ f oxygen.eps>
 (epstopdf)             \includegraphics on input line 382.
 Package epstopdf Info: Output file is already uptodate.
 
-<oxygen-eps-converted-to.pdf, id=1370, 1110.1475pt x 444.66125pt>
+<oxygen-eps-converted-to.pdf, id=1369, 1110.1475pt x 444.66125pt>
 File: oxygen-eps-converted-to.pdf Graphic file (type pdf)
 
 <use oxygen-eps-converted-to.pdf>
@@ -2840,7 +2840,7 @@ Package epstopdf Info: Source file: <9_41.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
 
-<9_41-eps-converted-to.pdf, id=1404, 505.89pt x 722.7pt>
+<9_41-eps-converted-to.pdf, id=1403, 505.89pt x 722.7pt>
 File: 9_41-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 9_41-eps-converted-to.pdf>
@@ -2858,7 +2858,7 @@ d-eps-converted-to.pdf 9_41_meandered_deconvoluted.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
 
-<9_41_meandered_deconvoluted-eps-converted-to.pdf, id=1406, 505.89pt x 722.7pt>
+<9_41_meandered_deconvoluted-eps-converted-to.pdf, id=1405, 505.89pt x 722.7pt>
 File: 9_41_meandered_deconvoluted-eps-converted-to.pdf Graphic file (type pdf)
 <use 9_41_meandered_deconvoluted-eps-converted-to.pdf>
 Package pdftex.def Info: 9_41_meandered_deconvoluted-eps-converted-to.pdf used 
@@ -2879,7 +2879,7 @@ Package epstopdf Info: Source file: <atm.eps>
 tm.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
-<atm-eps-converted-to.pdf, id=1408, 140.525pt x 393.47pt>
+<atm-eps-converted-to.pdf, id=1407, 140.525pt x 393.47pt>
 File: atm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use atm-eps-converted-to.pdf>
@@ -2917,11 +2917,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 44325 strings out of 493013
- 1003528 string characters out of 6135682
+ 44323 strings out of 493013
+ 1003507 string characters out of 6135682
  1231577 words of memory out of 5000000
- 46968 multiletter control sequences out of 15000+600000
- 20402 words of font info for 74 fonts, out of 8000000 for 9000
+ 46967 multiletter control sequences out of 15000+600000
+ 20045 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,15n,98p,10375b,1056s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSans-Bold.pfb>
@@ -2941,10 +2941,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb>
-Output written on presentation.pdf (34 pages, 15589527 bytes).
+Output written on presentation.pdf (34 pages, 15588606 bytes).
 PDF statistics:
- 1586 PDF objects out of 1728 (max. 8388607)
- 1145 compressed objects within 12 object streams
+ 1584 PDF objects out of 1728 (max. 8388607)
+ 1143 compressed objects within 12 object streams
  69 named destinations out of 1000 (max. 500000)
  391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
