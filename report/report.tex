@@ -60,16 +60,17 @@
 \author{Dr. András Kiss}
 \maketitle
 
-In this document I summarize the most important results of my work I have done in the laboratory of prof. Markus Hoth at the Center of Integrative Physiology and Molecular Medicine (CIPMM) in Homburg during the time period of 11th June 2018 -- 10th of August 2018 under the supervision of Dr. Monika Bozem. The work was financially supported by the German Academic Exchange Service (Deutscher Akademischer Austausch Dienst, DAAD).
+In this document I summarize the most important results of the work I have done in the laboratory of prof. Markus Hoth at the Center of Integrative Physiology and Molecular Medicine (CIPMM) in Homburg during the time period of 11th June 2018 -- 10th of August 2018 under the supervision of Dr. Monika Bozem. The work was financially supported by the German Academic Exchange Service (Deutscher Akademischer Austausch Dienst, DAAD).
 
-The main goal of the work was to map the H$_2$O$_2$ production of certain immune cells; natural killer and bystander cells with the Scanning Electrochemical Microscope (SECM). Additionally, new protocols had to be worked out in order to accomplish that goal. Among others, these include:
+The main goal of the work was to map the H$_2$O$_2$ production of certain immune cells with the Scanning Electrochemical Microscope (SECM). Additionally, new protocols had to be worked out in order to accomplish that goal. 
+%Among others, these include:
 
-\begin{itemize}
-\item production of 10 $\upmu$m or smaller diameter platinum microelectrodes,
-\item calibration and characterization of these,
-\end{itemize}
+%\begin{itemize}
+%\item production of 10 $\upmu$m or smaller diameter platinum microelectrodes,
+%\item calibration and characterization of these,
+%\end{itemize}
 
-By the time I joined the electrochemistry team at CIPMM, a lot of successful work has already been done \cite{bozem2018electrochemical}. Upon my arrival, Dr. Bozem presented three recently discovered problems which had to be solved before electroactive species like H$_2$O$_2$ and O$_2$ could be mapped in the close vicinity of the immune cells by the SECM:
+By the time I joined the electrochemistry team at CIPMM, a lot of successful work has already been done that is published in \cite{bozem2018electrochemical}. Upon my arrival, Dr. Bozem presented three recently discovered problems which had to be solved before electroactive species like H$_2$O$_2$ and O$_2$ could be mapped in the close vicinity of the immune cells by the SECM:
  
 \begin{itemize}
 \item high distortion in the images,
@@ -77,49 +78,10 @@ By the time I joined the electrochemistry team at CIPMM, a lot of successful wor
 \item insufficient resolution of the cells due to the relatively large diameter of the platinum microelectrodes.
 \end{itemize}
 
-We selected the first one to be worked on. The reason for this is that I have experience with reconstructing SECM images by removing distortion based on theoretical models. The problem is shown in Fig. \ref{fig:deconv}B. When a monocyte is scanned with the SECM, the resulting image is distorted. To investigate the problem, first I have reduced the complexity of the problem by creating a model system. It consisted of an ,,ideal'' step, that has a well defined geometry. The system consisted of a broken glass sheet in a Petri--dish. The broken edge of the glass sheet is very sharp, and creates a good step function. When the Pt UME is scanned above it, the measured current is low when the tip is close to the glass sheet, but once it reaches the edge and it is suddenly in the bulk of the solution, the current increases, because diffusion of the electroactive species (ferrocene) is no longer hindered. This is an ideal setup to study how the image of a near perfect step function is distorted by the scanning process. A sketch of the model system can be seen in Fig. \ref{fig:model1}.
-
-\begin{figure}
-\centering
-% trim = top left bottom right
-% trim = left bottom right top
-\includegraphics[width=0.8\textwidth]{deconv.eps}
-\caption{Figure caption.}
-\label{fig:deconv}
-\end{figure} 
-
-The result of the SECM scanning is presented in Fig. \ref{fig:step1}. When the system is scanned with a speed of 5 $\upmu$m/s, the image is not distorted. However, when the speed is increased to 10 $\upmu$m/s, the image becomes distorted. This speed is still insufficient to investigate a monocyte with fairly good temporal resolution. Quite surprisingly, after deconvolution, the image besame even more distorted. The explanation is the following. It is a well known fact from hydrodynamics, that when two planes close to each other move relatively to each other in a liquid, and when one reaches the edge of the other, a very strong convective effect is present. This is depicted in Fig. \ref{fig:convective}. This effect increases the current for a short time when the electrode is moving from above the glass sheet cover to the bulk, and the change is more sudden than when it is moving in the opposite direction.
-
-\begin{figure}
-\centering
-\includegraphics[width=0.7\textwidth]{step.eps}
-\caption{Figure caption.}
-\label{fig:model1}
-\end{figure} 
-
-\begin{figure}
-\centering
- \includegraphics[trim = 10mm 60mm 0mm 60mm, clip, width=0.33\textwidth, angle=-90]{1.eps}\includegraphics[trim = 10mm 60mm 0mm 60mm, clip, width=0.33\textwidth, angle=-90]{2_meandered.eps}\includegraphics[trim = 10mm 60mm 0mm 60mm, clip, width=0.33\textwidth, angle=-90]{2_meandered_deconvoluted.eps}
-
-\hspace{1.3cm} 5 $\upmu$m/s \hspace{2.5cm} 10 $\upmu$m/s \hspace{1.2cm} 10 $\upmu$m/s deconvoluted \hfill
-\caption{Figure caption.}
-\label{fig:step1}
-\end{figure}
-
-\begin{figure}
-\centering
- \includegraphics[width=0.6\textwidth]{step_conv.eps}
-\caption{Figure caption.}
-\label{fig:convective}
-\end{figure}
-
-I had to find another model system that acts as a step function. 
+We selected the first one to be worked on. The reason for this is that I have experience with reconstructing SECM images by removing distortion based on theoretical models. The problem is shown in Fig. \ref{fig:deconv}B. When a monocyte is scanned with the SECM, the resulting image is distorted. To investigate the problem, first I have reduced the complexity of the problem by creating a model system. It featured an ,,ideal'' step, that has a well defined geometry. The system consisted of a broken glass sheet in a Petri--dish. The broken edge of the glass sheet is very sharp, and creates a good step function. When the Pt UME is scanned above it, the measured current is low when the tip is close to the glass sheet, but once it reaches the edge and it is suddenly in the bulk of the solution, the current increases, because diffusion of the electroactive species (ferrocene) is no longer hindered. This is an ideal setup to study how the image of a near perfect step function is distorted by the scanning process. A sketch of the model system can be seen in Fig. \ref{fig:model1}.
 
 
-
-
-
-The optical microphoto of the scanned monocyte can be seen in Fig. \ref{fig:deconv}A. H$_2$O$_2$ was measured at a d = 10 $\upmu$m Pt microelectrode. The resulting image is distorted (Fig. \ref{fig:deconv}B). This distortion is very similar I have encountered during my PhD studies \cite{kiss2015deconvolution, kiss2015deconvolution2}. In that case, the distortion was caused by the relatively large RC time-constant ot he potentiometric cell. I could solve that by working out a deconvolution algorithm. In this case, the distortion is caused by slow amperometric response that is associated with the Cottrell--equation, but also with the RC time-constant. I have written the following Python program to perform the deconvolution:
+The result of the SECM scanning is presented in Fig. \ref{fig:step1}. When the system is scanned with a speed of 5 $\upmu$m/s, the image is not distorted. However, when the speed was increased to 10 $\upmu$m/s, the image became distorted. This speed is still insufficient to investigate a monocyte with fairly good temporal resolution. The distortion is very similar I have encountered during my PhD studies \cite{kiss2015deconvolution, kiss2015deconvolution2}. In that case, the distortion was caused by the relatively large RC time-constant ot he potentiometric cell. I could solve that by working out a deconvolution algorithm. In this case, the distortion is caused by slow amperometric response that is associated with the Cottrell--equation, but also with the RC time-constant. I have written the following Python program to perform the deconvolution:
 
 \begin{lstlisting}{language=python}
 #!/usr/bin/enc python
@@ -146,11 +108,61 @@ for n in range(0, conv_img.shape[0]):
 np.savetxt("11_python_deconvoluted.txt", deconv_img, delimiter=" ")
 \end{lstlisting}
 
-After I ran the program above on the dataset plotted in Fig. \ref{fig:deconv}B, the distortion decreased significantly (Fig. \ref{fig:deconv}C). I have managed to successfully deconvolute distorted amperometric SECM images of human immune cells recorded with the HEKA ElProScan SECM at the CIPMM in Homburg.
+Quite surprisingly, after deconvolution, the image became even more distorted. The explanation is the following. It is a well known fact from hydrodynamics, that when two planes close to each other move relatively to each other in a liquid, and when one reaches the edge of the other, a very strong convective effect is present. This is depicted in Fig. \ref{fig:convective}. This effect increases the current for a short time when the electrode is moving from above the glass sheet cover to the bulk, and the change is more sudden than when it is moving in the opposite direction.
 
-The SECM image shown in Fig. \ref{fig:deconv}B was measured with an electrode manufactured by Phillip Knapp, PhD student supervised by Dr. Monika Bozem. I have also constructed my own Pt microelectrodes for further experiments. The so-called \emph{RG}--value is a very important parameter of the amperometric microelectrodes. This is the ratio of the diameter of the whole electrode at the tip (insulation + electroactive part) and the electroactive part. I have managed to create Pt UMEs (ultramicro electrodes) with an RG--value of $\approx$ 2.5.
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{step.eps}
 
-An interesting application of SECM is measuring the O$_2$ concentration in the close vicinity of cells. This can provide information about their metabolic activity. It has great importance in the immune system, where an oxidative burst can significantly influence the O$_2$ concentration nearby the cell. 
+\includegraphics[trim = 10mm 60mm 0mm 60mm, clip, width=0.33\textwidth, angle=-90]{1.eps}\includegraphics[trim = 10mm 60mm 0mm 60mm, clip, width=0.33\textwidth, angle=-90]{2_meandered.eps}\includegraphics[trim = 10mm 60mm 0mm 60mm, clip, width=0.33\textwidth, angle=-90]{2_meandered_deconvoluted.eps}
+
+\hspace{1.3cm} 5 $\upmu$m/s \hspace{2.5cm} 10 $\upmu$m/s \hspace{1.2cm} 10 $\upmu$m/s deconvoluted \hfill
+
+\centering
+ \includegraphics[width=0.6\textwidth]{step_conv.eps}
+\caption{Figure caption.}
+\label{fig:convective}
+\end{figure}
+
+I had to find another model system that acts as a step function. I have built a model that is depicted in Fig. \ref{fig:wire}. I fixed a d = 10 $\upmu$m Pt wire on the bottom of a Petri--dish. I filled the dish with ferrocenium solution with KCl as background electrolyte. The microphoto of the completed system taken from below can be seen in Fig. \ref{fig:wire_photo}. Then I approached the wire with the ultramicro-electrode and scanned perpendicularly. Of course this is not an ideal step function, but actually models a cell better. The resulting image is plotted in Fig. \ref{fig:wire_result}.
+
+
+\begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{wire.eps}
+        \includegraphics[width=0.6\textwidth]{wire_photo.eps}
+ \includegraphics[trim = 10mm 30mm 0mm 20mm, clip, width=0.33\textwidth, angle=-90]{7.eps}\includegraphics[trim = 10mm 30mm 0mm 20mm, clip, width=0.33\textwidth, angle=-90]{7_deconvoluted.eps}
+\caption{Figure caption.}
+\label{fig:wire_result}
+\end{figure}
+
+The deconvolution on this system worked. The expected shape -- that is a straight stripe across the image -- is restored. The distortion caused by the long response time of the cell is reduced. The deconvolution function is certainly far from perfect, and the distorion is a lot more complex. The image however improved, and I consider this result a good starting point. 
+
+In the remainder of the report I show the results of the deconvolution of earlier SECM images of immune cells recorded by Dr. Monika Bozem and Phillip Knapp as well as the deconvolution of measurements I have done. The first example is a monocyte scanned with a 10 $\upmu$m Pt microelectrode, measuring H$_2$O$_2$. The optical microphoto of the scanned monocyte can be seen in Fig. \ref{fig:deconv}A. The resulting image is distorted (Fig. \ref{fig:deconv}B). After I ran the program above on the dataset plotted in Fig. \ref{fig:deconv}B, the distortion decreased significantly (Fig. \ref{fig:deconv}C). I have managed to successfully deconvolute distorted amperometric SECM images of human immune cells recorded with the HEKA ElProScan SECM at the CIPMM in Homburg.
+
+\begin{figure}
+\centering
+% trim = top left bottom right
+% trim = left bottom right top
+\includegraphics[width=0.8\textwidth]{deconv.eps}
+\caption{Figure caption.}
+\label{fig:deconv}
+\end{figure} 
+
+The SECM image shown in Fig. \ref{fig:deconv}B was measured with an electrode manufactured by Phillip Knapp, PhD student supervised by Dr. Monika Bozem. I have also constructed my own Pt microelectrodes for further experiments. The so-called \emph{RG}--value is a very important parameter of the amperometric microelectrodes. This is the ratio of the diameter of the whole electrode at the tip (insulation + electroactive part) and the electroactive part. I have managed to create Pt UMEs (ultramicro electrodes) with an RG--value of $\approx$ 2.5. I have used the manufactured electrodes in an interesting application that I have introduced in prof. Hoth's laboratory. Previously H$_2$O$_2$ was measured, because this can be easily done, and it is a good indicator of the general state of a cell undergoing oxidative stress. It is also considered a signalling molecule in the immune system. I've asked Dr. Bozem if it would be interesting to know the concentration of oxygen in the close vicinity of cell. She told me it would be very interesting, so I designed an experiment to demonstarte it. I have mapped the oxygen partial pressure of a human monocyte with the SECM. This can provide information about their metabolic activity. It has great importance in the immune system, where an oxidative burst can significantly influence the O$_2$ concentration nearby the cell. 
+
+
+The result of the oxygen mapping can be seen in Fig. \ref{fig:oxy}.
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.8\textwidth]{oxygen.eps}
+
+        \includegraphics[trim = 10mm 20mm 0mm 20mm, clip, width=0.4\textwidth, angle=-90]{9_41.eps}\includegraphics[trim = 10mm 20mm 0mm 20mm, clip, width=0.4\textwidth, angle=-90]{9_41_meandered_deconvoluted.eps}
+
+\includegraphics[width=0.15\textwidth, angle=-90]{atm.eps}
+\label{fig:oxygen}
+\end{figure}
 
 
 Dr. András Kiss
